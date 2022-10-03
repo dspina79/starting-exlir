@@ -33,3 +33,14 @@ IO.puts z
 IO.puts "x / y"
 z = x / y
 IO.puts z
+
+
+#lists
+IO.puts "Lists"
+lx = [1,2]
+ly = [3,4]
+IO.inspect lx, label: "List x is"
+IO.inspect ly, label: "List y is"
+lxy = lx ++ ly
+
+IO.inspect lxy, label: "List x + y is"
